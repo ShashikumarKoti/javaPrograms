@@ -62,3 +62,27 @@ class Consumer implements Runnable {
 		
 	}
 }
+
+//Output
+//Thread-1 consumed 0
+//Thread-0 added 0
+//Thread-0 added 1
+//Thread-1 consumed 1
+//Thread-0 added 2
+//Thread-1 consumed 2
+//Thread-0 added 3
+//Thread-1 consumed 3
+//Thread-0 added 4
+//Thread-1 consumed 4
+//Thread-0 added 5
+//Thread-1 consumed 5
+//Thread-0 added 6
+//Thread-1 consumed 6
+//Thread-0 added 7
+//Thread-1 consumed 7
+//Thread-0 added 8
+//Thread-1 consumed 8
+//Thread-0 added 9
+//Thread-1 consumed 9
+//Thread-0 added 10
+//Thread-1 consumed 10
