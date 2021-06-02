@@ -41,7 +41,6 @@ public class EvenOdd {
 				try {
 					eo.printEven();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -52,15 +51,13 @@ public class EvenOdd {
 				try {
 					eo.printOdd();;
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 		});
-		t1.setName("Thread-1");
-		t2.setName("Thread-2");
+		t1.setName("Even thread");
+		t2.setName("Odd thread");
 		t1.start();
 		t2.start();
 	}
-
 }
