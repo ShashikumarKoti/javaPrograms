@@ -5,7 +5,7 @@ public class RightTrianglePattern {
 	private static final int row = 5;
 
 	public static void main(String[] args) {
-
+		//Type-1
 		// i for rows and j for columns
 		// row denotes the number of rows you want to print
 		for (int i = 0; i < row; i++) {

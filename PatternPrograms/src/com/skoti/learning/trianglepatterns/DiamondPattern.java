@@ -5,7 +5,7 @@ public class DiamondPattern {
 	private static final int row = 5;
 
 	public static void main(String[] args) {
-		//pyramid
+		// pyramid
 		for (int i = 0; i < row; i++) {
 			// Print space in decreasing order
 			for (int j = row - i; j > 1; j--) {
@@ -17,12 +17,12 @@ public class DiamondPattern {
 			}
 			System.out.println();
 		}
-		//reverse pyramid
+		// reverse pyramid
 		for (int i = 0; i < row; i++) {
-			for (int j = 0; j < i; j++) {
+			for (int j = 0; j <= i; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k < row - i; k++) {
+			for (int k = 0; k < row - i - 1; k++) {
 				System.out.print("* ");
 			}
 			System.out.println();

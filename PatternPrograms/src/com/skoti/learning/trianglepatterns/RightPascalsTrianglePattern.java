@@ -1,4 +1,4 @@
-package com.skoti.learning.trianglepatterns;
+ package com.skoti.learning.trianglepatterns;
 
 public class RightPascalsTrianglePattern {
 
@@ -6,6 +6,7 @@ public class RightPascalsTrianglePattern {
 
 	public static void main(String[] args) {
 
+		//Type-1
 		for (int i = 0; i < row; i++) {
 			// inner loop for columns
 			for (int j = 0; j <= i; j++) {

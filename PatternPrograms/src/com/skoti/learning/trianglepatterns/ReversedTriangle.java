@@ -4,6 +4,7 @@ public class ReversedTriangle {
 	private static final int row = 5;
 
 	public static void main(String[] args) {
+		//Type-1
 		for (int i = row; i >= 1; i--) {
 			for (int j = i; j < row; j++) {
 				System.out.print(" ");

@@ -4,6 +4,7 @@ public class DiamondStarPattern {
 	private static final int row = 5;
 
 	public static void main(String[] args) {
+		//Type-1
 		for (int i = 1; i <= row; i++) {
 			for (int j = i; j < row; j++) {
 				System.out.print(" ");
