@@ -29,6 +29,6 @@ public class ConvertStringToIntegerAndViceversa {
 		Integer valueOf = Integer.valueOf(string);
 
 		// return parseInt;
-		return valueOf;
+		return parseInt;
 	}
 }

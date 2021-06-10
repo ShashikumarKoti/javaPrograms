@@ -4,7 +4,7 @@ public class PermutationsOfString {
 
 	public static void main(String[] args) {
 
-		String word = "JSP";
+		String word = "JSPA";
 		findAllPermutationsOfString("", word);
 	}
 
