@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Algorithms/src"/>
+	<classpathentry kind="src" path="Collections/src"/>
+	<classpathentry kind="src" path="DesignPatterns/src"/>
+	<classpathentry kind="src" path="PatternPrograms/src"/>
+	<classpathentry kind="src" path="Strings/src"/>
+	<classpathentry kind="src" path="Threads/src"/>
+	<classpathentry kind="output" path="Algorithms/bin"/>
+</classpath>

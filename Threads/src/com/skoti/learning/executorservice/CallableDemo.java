@@ -11,8 +11,8 @@ import java.util.concurrent.TimeoutException;
 public class CallableDemo {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException, TimeoutException {
-	//	ExecutorService executorService = Executors.newFixedThreadPool(5);
-		ExecutorService executorService = Executors.newCachedThreadPool();
+		ExecutorService executorService = Executors.newFixedThreadPool(5);
+	//	ExecutorService executorService = Executors.newCachedThreadPool();
 		
 		for(int i=0;i<10;i++) {
 			Future<String> futureTask = executorService.submit(new MyCallable());

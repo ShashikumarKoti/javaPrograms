@@ -9,13 +9,13 @@ import java.util.Set;
 public class RearrangeStringToFormPalindrome {
 
 	public static void main(String[] args) {
-		String word = "madmadsk";
+		String word = "madma";
 
 		boolean checkIfAnagram = checkIfAnagram(word);
 		if (checkIfAnagram) {
-			System.out.println("Given word can form anagram");
+			System.out.println("Given word can form palindrome");
 		} else {
-			System.out.println("Not an anagram");
+			System.out.println("Not an palindrome");
 		}
 	}
 

@@ -20,8 +20,8 @@ public class ClassLevelLockDemo {
 class ClassLevelLockTest implements Runnable {
 	@Override
 	public void run() {
-	//	classLock();
-		m1();
+		classLock();
+	//	m1();
 	}
 
 	private void m1() {

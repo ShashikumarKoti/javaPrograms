@@ -5,7 +5,9 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		int arr[] = { 100, 20, 15, 30, 5, 75, 40 };
 		bubbleSort(arr);
+		
 	}
+	
 
 	private static int[] bubbleSort(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {

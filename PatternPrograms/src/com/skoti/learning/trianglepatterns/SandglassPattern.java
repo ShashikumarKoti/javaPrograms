@@ -29,7 +29,7 @@ public class SandglassPattern {
 		
 		// Type-2
 		for (int i = 0; i < row; i++) {
-			for (int j = 0; j <= i; j++) {
+			for (int j = 0; j < i; j++) {
 				System.out.print(" ");
 			}
 			for (int k = 0; k < row - i ; k++) {
@@ -39,7 +39,7 @@ public class SandglassPattern {
 		}
 		for (int i = 0; i < row-1; i++) {
 			// Print space in decreasing order
-			for (int j = row - i; j > 1; j--) {
+			for (int j = row - i-1; j > 1; j--) {
 				System.out.print(" ");
 			}
 			// inner loop for columns

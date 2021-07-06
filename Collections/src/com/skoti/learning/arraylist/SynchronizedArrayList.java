@@ -42,6 +42,7 @@ public class SynchronizedArrayList {
 				// if(itr.next()=="Ink")
 				// synchronizedList.remove(2); //this will throw ConcurrentModificationException
 				// itr.next();
+				System.out.println(itr.next());
 			}
 		}
 		System.out.println(synchronizedList);
