@@ -4,7 +4,7 @@ public class MoveZerosAtStartOfArray {
 
 	public static void main(String[] args) {
 
-		int array_nums[] = { 0, 4, 1, 0, 3, 0, 5, 0, 6 };
+		int array_nums[] = { 0, 4, 1, 0, -3, 0, 5, 0, 6 };
 		int count = array_nums.length - 1;
 
 		System.out.println("Originl array: ");
@@ -22,7 +22,7 @@ public class MoveZerosAtStartOfArray {
 			array_nums[count] = 0;
 			count--;
 		}
-		System.out.println();
+		System.out.println("\nAfter moving 0's at start");
 		for (int i = 0, size = array_nums.length; i < size; i++)
 			System.out.print(array_nums[i] + " ");
 	}

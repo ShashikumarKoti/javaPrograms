@@ -22,7 +22,7 @@ public class MoveZerosAtEndOfArray {
 			array_nums[count] = 0;
 			count++;
 		}
-		System.out.println();
+		System.out.println("\nAfter moving 0's to end");
 		for (int i = 0, size = array_nums.length; i < size; i++)
 			System.out.print(array_nums[i] + " ");
 	}
